@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972814613825",
+    "project_id": "medical-consutation",
+    "storage_bucket": "medical-consutation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972814613825:android:82f7536a55138e8c7b75c0",
+        "android_client_info": {
+          "package_name": "com.example.medical_consutation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972814613825-5gmq31kcd2f7fjkov49grdsqmb8r8pik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6fhR7BN-TvOy-wWLbV21xI7NxiPX7SM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972814613825-5gmq31kcd2f7fjkov49grdsqmb8r8pik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -23,17 +23,32 @@ TextView tv1,tv2;
         tv2=(TextView) findViewById(R.id.logo);
         tv1.setText("Your health your mate");
         tv2.setText("Medic APP");
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity2();
+            }
+        });
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openActivities();
+
+
             }
         });
 
+    }
+
+    private void openActivity2() {
+        Intent signin =new Intent(this,signIn.class);
+        startActivity(signin);
     }
 
     private void openActivities() {
         Intent intent =new Intent(this,createAccount.class);
         startActivity(intent);
     }
+
+
 }
